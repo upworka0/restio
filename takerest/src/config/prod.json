@@ -1,0 +1,15 @@
+{
+    "port": "8200",
+    "debug": true,
+    "db": {
+        "host": "localhost",
+        "user": "root",
+        "password": "TakeRest@MySql!79",
+        "database": "datagen",
+        "port": "3306"
+    },
+    "admin": {
+        "id": "admin",
+        "password": "Muppavarapu@79!"
+    }
+}

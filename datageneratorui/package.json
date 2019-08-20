@@ -1,0 +1,65 @@
+{
+  "name": "generator-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.21",
+    "forever": "^1.0.0",
+    "js2xmlparser": "^3.0.0",
+    "json2csv": "^4.5.1",
+    "lodash": "^4.17.11",
+    "luxon": "^1.15.0",
+    "vue": "^2.6.10",
+    "vue-awesome": "^3.5.3",
+    "vue-bootstrap-datetimepicker": "^5.0.1",
+    "vue-configuration": "^1.0.3",
+    "vue-datetime": "^1.0.0-beta.10",
+    "vue-icons": "^2.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.6",
+    "vue-select": "^2.6.4",
+    "weekstart": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

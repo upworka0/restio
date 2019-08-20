@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "test-data-gen@^1.0.1",
+        "scope": null,
+        "escapedName": "test-data-gen",
+        "name": "test-data-gen",
+        "rawSpec": "^1.0.1",
+        "spec": ">=1.0.1 <2.0.0",
+        "type": "range"
+      },
+      "e:\\aaa\\Vue-fix_enhancement-US\\TakeRest"
+    ]
+  ],
+  "_from": "test-data-gen@>=1.0.1 <2.0.0",
+  "_id": "test-data-gen@1.0.1",
+  "_inCache": true,
+  "_location": "/test-data-gen",
+  "_nodeVersion": "10.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/test-data-gen_1.0.1_1534728517327_0.7924848271292924"
+  },
+  "_npmUser": {
+    "name": "nmuppavarapu",
+    "email": "nmuppavarapu@gmail.com"
+  },
+  "_npmVersion": "6.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "test-data-gen@^1.0.1",
+    "scope": null,
+    "escapedName": "test-data-gen",
+    "name": "test-data-gen",
+    "rawSpec": "^1.0.1",
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/test-data-gen/-/test-data-gen-1.0.1.tgz",
+  "_shasum": "dba69a12aa8175d7176a74ad26274a4433373fcf",
+  "_shrinkwrap": null,
+  "_spec": "test-data-gen@^1.0.1",
+  "_where": "e:\\aaa\\Vue-fix_enhancement-US\\TakeRest",
+  "author": {
+    "name": "Raj Muppavarapu"
+  },
+  "dependencies": {
+    "cartesian": "^1.0.1",
+    "country-data": "0.0.31",
+    "creditcard-generator": "0.0.7",
+    "faker": "^4.1.0",
+    "fakerator": "^0.3.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "npm": "^6.1.0",
+    "python-shell": "^0.5.0"
+  },
+  "description": "Test Data Generator",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-d7mLe9RSsEG3b7lWe7EVn+HMKHZDHxmBMGKrTFPWvk/VHDI8yxL+Y86e1zoYflSgwm8X5H93I8T0g7tmvElkog==",
+    "shasum": "dba69a12aa8175d7176a74ad26274a4433373fcf",
+    "tarball": "https://registry.npmjs.org/test-data-gen/-/test-data-gen-1.0.1.tgz",
+    "fileCount": 304,
+    "unpackedSize": 4122380,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbehlGCRA9TVsSAnZWagAANfcP/jxojBXg8NZZurexemez\nXBV3WMYLbJ4TzDNPebXW0CuIiNr+ZAo/2alOHkqD+wWNxTZHEQWayWggY6Q6\nCpeGg9sgP3JMTpFpXwGSVE/f5X2qjEeSz6nxDRyxmTUUfTlllbMHE4JKJ/Cl\nmuv8pZN1KsBELRHPj546v5SACmqUtFqr496tnZx2PftbNfzQYGZyBZnmaix8\nDwiBCJfumEq9mAwV60zxqA+7RjmBLUxU3Nllo+N2bnPqeV22IsXeApotQeua\nMtkQLgVAU4DNdCihny51gD8KYad51+icguRhDh17afYo4SxN+lRSFAl8V5Wy\nDV71lNRm50sPYk1/ohfh7y0L4v+XOw3yDuTnHJ2xS6+asqUbV0oPWas0ZZWs\nsk3tv9XcQEuD2FJiCYejr/hpHNQBuP/k+LRqXJsEyVxbKJjfFkdFY1WrlNzt\nNCDfAWZtYnM6kSp67GCUb2Cx7+5q+DrclApDlW2QsGy4W6t+fYwIKRiheKSy\nBWuB5O0koU1XM4zivxpk5C0HPjmdh5NlSjs1WszK/QBP2UBs5cCT/SUixcGw\njJ7NGCHgj+5pBSdmJAy4ZaNsYIgq5V4MWV79tOkCVHsGGC38b5U+An8xgr8l\n0Me0kqyUoIYVLCcMVuxyWpguD2mbsN/igKEOqmFj5M7Fkt4Q/xQcyR1B7DAX\nAqdN\r\n=N2KP\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "58ecf65aee1ba3887a1ff9b9c77cfdd90377a4dd",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "nmuppavarapu",
+      "email": "nmuppavarapu@gmail.com"
+    }
+  ],
+  "name": "test-data-gen",
+  "optionalDependencies": {},
+  "readme": "# Test Data Generator\n\n## Install\n\n    npm i test-data-gen\n\n## Usage\n\n### API Methods\n\n#### Combinations\n\nCombine all the possible combinations of two or more lists.\n\n``` js\nvar generator = require('test-data-gen');\n\nvar data = {\n    \"points\": [80],\n    \"name\": [\"Steve\", \"Adam\"]\n};\n\nconsole.log(generator.combinations({data}));\n/*\n    outputs:\n    {\n        \"data\": [{\n                \"points\": 80,\n                \"name\": \"Steve\"\n            },{\n                \"points\": 80,\n                \"name\": \"Adam\"\n            }]\n    }\n*/  \n```\n\n#### Custom rows\n\nGenerating a lot of realistic test data.\n\n``` js\nvar generator = require('test-data-gen');\n\nvar opts = {\n    data: {\n        \"First name\": {\n            \"type\": \"firstName\"\n        },\n        \"Last name\": {\n            \"type\": \"lastName\"\n        },\n        \"Age\": {\n            \"type\": \"integer\",\n            \"min\": 18,\n            \"max\": 65\n        }\n    },\n    \"rowsCount\": 2\n};\n\nconsole.log(generator.customRow(opts));\n/*\n    outputs:\n    {\n        \"data\": [{\n                \"First name\": \"Justyn\",\n                \"Last name\": \"Rowe\",\n                \"Age\": 58\n            },{\n                \"First name\": \"Jaylon\",\n                \"Last name\": \"Weber\",\n                \"Age\": 22\n            }]\n    }\n*/  \n```\n\n#### Data Type Generators\n\nUse this functions to generate fake random data\n\n* Name:\n\t* firstName (min, max)\n\t* lastName (min, max)\n\t* fullName (min, max)\n\t* prefix (min, max)\n\t* suffix (min, max)\n  * gender\n* Address:\n\t* country\n\t* countryCode\n\t* state\n\t* stateCode\n\t* county (min, max)\n\t* city (min, max)\n\t* addressPrimary (min, max)\n\t* addressSecondary (min, max)\n\t* zipCode (min, max)\n\t* latitude\n\t* longitude\n* Internet:\n\t* email (min, max)\n\t* userName (min, max)\n\t* domainName (min, max)\n\t* ip\n\t* ipv6\n  * url\n* Number:\n\t* integer (min, max, sign)\n\t* float (min, max, float, sign)\n  * incremental (start, step)\n* Phone:\n\t* phoneCountryCode\n\t* phoneNumber (phoneFormat)\n\t* currentDate (dateFormat)\n  * currentTime (timeFormat)\n  * currentDateTime (dateFormat, timeFormat)\n\t* futureDate (dateFormat, days)\n  * futureTime (timeFormat, mins)\n  * futureDateTime (dateFormat, timeFormat, days, mins)\n  * pastDate (dateFormat, days)\n\t* pastTime (timeFormat, mins)\n  * pastDateTime (dateFormat, timeFormat, days, time)\n  * rangeDate (dateFormat, from, to)\n  * rangeTime (timeFormat, from, to)\n  * rangeDateTime ( dateFormat, timeFormat, from, to)\n\t* timestamp (from, to)\n* Time Zone:\n\t* timezone\n* Boolean:\n\t* boolean\n* Credit Card:\n\t* cardType\n\t* cardNumber\n* Currency:\n\t* currencyCode\n\t* currencySymbol\n* Text:\n    * words (min, max)\n    * sentences (min, max)\n    * paragraphs (min, max)\n* Color:\n\t* color\n* Custom\n  * custom\n  * blank\n",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

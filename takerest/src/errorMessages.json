@@ -1,0 +1,6 @@
+{
+  "NOT_FOUND": "Not Found",
+  "WRONG_PAYLOAD": "Wrong Payload",
+  "PROVIDE_TYPE": "Please provide type for ':1' field",
+  "PROVIDE_VALID_TYPE": "Data type ':1' is not valid. Please provide valid data type"
+}

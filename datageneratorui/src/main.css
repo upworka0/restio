@@ -1,0 +1,118 @@
+body {
+    color: #999;
+    background: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    /* margin: -1px; */
+}
+h4, h5, h6 {
+    margin: 0;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+}
+#app {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #999;
+    /* padding-left: 0;
+    padding-right: 0; */
+}
+
+#app button > svg {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+#app > .navbar {
+    margin-bottom: 10px;
+}
+
+div.searchable .dropdown-toggle > input[type=search] {
+    float: left;
+}
+
+div.searchable.active:not(.open) .dropdown-toggle > input[type=search] {
+    width: 0px !important;
+}
+
+.dropdown-toggle > .selected-tag {
+    margin: 5px 10px 5px 5px !important;
+    position: relative !important;
+}
+.dropdown-toggle > button.clear {
+    visibility: hidden !important;
+}
+.bootstrap-datetimepicker-widget {
+    position: absolute;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+}
+.form-control {
+    color: #555;
+    font-size: 14px;
+    font-family: inherit;
+    min-height: 41px;
+    box-shadow: none;
+    border-color: #e6e6e6;
+}
+.form-control:focus {
+    border-color: rgb(0, 193, 192);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 161, 161, 0.4);
+}
+
+.btn-bora {
+    color:#fff;
+    background-color:#43425d;
+    border-color:#43425d
+}
+.btn-bora:hover {
+    color:#fff;
+    background-color:#615f80;
+    border-color:#615f80
+}
+.outline-bora {
+    color: #43425d;
+    border-color: #43425d;
+}
+.outline-bora {
+    color: #43425d;
+    border-color: #43425d;
+}
+.outline-bora:hover {
+    color: #fff;
+    background-color: #43425d;
+    border-color: #43425d;
+}
+.auth_form .form-control {
+    border-color: transparent !important;
+    border: 0px !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid #43425d !important;
+    border-radius: 0 !important;
+}
+.float-left {
+    float: left;
+}
+.position-relative {
+    position: relative;
+}
+
+#takelogo {
+    height: 30px;
+    width: 160px;
+    position: absolute;
+    margin: -15px -5px 0;
+}
+
+/* .btn-primary:hover{color:#fff;background-color:#004d4d;border-color:#00c1c0}
+.btn-primary:focus,.btn-primary.focus{box-shadow:0 0 0 .2rem rgba(0,90,90,0.5)}
+.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:teal;border-color:#005a5a}
+.btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle{color:#fff;background-color:#00b3b3;border-color:#000}
+.btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(0,90,90,0.5)} */

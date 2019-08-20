@@ -1,0 +1,7 @@
+[
+    [{"sa":"Тюменская область","dwqa":"Russian Federation","wqerwq":"k Валентинаa","qwe":"["},
+{"sa":"Тюменская область","dwqa":"Russian Federation","wqerwq":"k Валентинаa","qwe":"["},
+{"sa":"Тюменская область","dwqa":"Russian Federation","wqerwq":"k Валентинаa","qwe":"["},
+{"sa":"Тюменская область","dwqa":"Russian Federation","wqerwq":"k Валентинаa","qwe":"["}],
+
+[{"sa":"Кіровоградська область","dwqa":"Ukraine","wqerwq":"Північний Щастиславград","qwe":"c"},{"sa":"Кіровоградська область","dwqa":"Ukraine","wqerwq":"Північний Щастиславград","qwe":"c"},{"sa":"Кіровоградська область","dwqa":"Ukraine","wqerwq":"Північний Щастиславград","qwe":"c"},{"sa":"Кіровоградська область","dwqa":"Ukraine","wqerwq":"Північний Щастиславград","qwe":"c"}],[{"sa":"Overijssel","dwqa":"Netherlands Antilles","wqerwq":"azijl","qwe":"l"},{"sa":"Overijssel","dwqa":"Netherlands Antilles","wqerwq":"azijl","qwe":"l"},{"sa":"Overijssel","dwqa":"Netherlands Antilles","wqerwq":"azijl","qwe":"l"},{"sa":"Overijssel","dwqa":"Netherlands Antilles","wqerwq":"azijl","qwe":"l"}]]
