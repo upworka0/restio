@@ -28,7 +28,7 @@
     "lodash": "^4.17.19",
     "mysql": "^2.17.1",
     "nconf": "^0.10.0",
-    "nodemailer": "^6.3.0",
+    "nodemailer": "^6.4.16",
     "nodemon": "^1.19.1",
     "strummer": "^2.5.0",
     "test-data-gen": "^1.0.2"
