@@ -27,7 +27,7 @@
     "http-status": "^1.2.0",
     "lodash": "^4.17.21",
     "mysql": "^2.17.1",
-    "nconf": "^0.10.0",
+    "nconf": "^0.11.4",
     "nodemailer": "^6.4.16",
     "nodemon": "^1.19.1",
     "strummer": "^2.5.0",
