@@ -24,7 +24,7 @@
     "vue-datetime": "^1.0.0-beta.10",
     "vue-icons": "^2.0.0",
     "vue-loader": "^15.7.0",
-    "vue-resource": "^1.5.1",
+    "vue-resource": "^1.5.3",
     "vue-router": "^3.0.6",
     "vue-select": "^2.6.4",
     "weekstart": "^1.0.0"
